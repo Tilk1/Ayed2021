@@ -1,12 +1,12 @@
 package tp03.ejercicio1;
-
-import tp02.ejercicio2.ListaEnlazadaGenerica;
-import tp02.ejercicio2.ListaEnlazadaGenerica;
+/** 
+ * Ejercicio 4 practica 3
+ * @author SAN
+ * @ENUNCIADO: https://i.imgur.com/H6lJYYU.png
+ */
 
 public class RedBinariaLlena {
 	private ArbolBinario<Integer> arbol;
-	
-	
 	
 	//para testear
 	// ARBOL BINARIO DE NUMEROS LLENO!!!
@@ -14,7 +14,6 @@ public class RedBinariaLlena {
 	//    7        15
 	// 12   6    40   10
 	//	   		   
-	
 	public void agregarHijos() {
 		arbol = new ArbolBinario<Integer>(20);
 		ArbolBinario<Integer> a7 = new ArbolBinario<Integer>(7);

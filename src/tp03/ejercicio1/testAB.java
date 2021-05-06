@@ -57,13 +57,14 @@ public class testAB {
 		//System.out.println(juan.contadorOcurrencias("pepe"));
 		
 		//a20.printInorden();
-		//System.out.println(a20.buscar());
+		a20.printPreorden();
+		System.out.println(a20.buscar());
 		
 		//a20.recorridoPorNiveles();
 		//System.out.println(a20.contarHojas());
 		
-		ArbolBinario<String> espejoJuan = juan.espejo(juan);
-		espejoJuan.printPreorden();
+		//ArbolBinario<String> espejoJuan = juan.espejo(juan);
+		//espejoJuan.printPreorden();
 		
 		
 	}

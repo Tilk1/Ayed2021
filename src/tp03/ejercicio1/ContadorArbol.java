@@ -1,7 +1,11 @@
 package tp03.ejercicio1;
 
 import tp02.ejercicio2.ListaEnlazadaGenerica;
-
+/**
+* Ejercico parcial y practica 3-4  Contador numeros Pares de un arbol
+* @author SAN
+* @ENUNCIADO: https://i.imgur.com/MSYxGET.png   (Ctrl click abrirlo)
+*/
 public class ContadorArbol {
 	private ArbolBinario<Integer> arbol;
 	

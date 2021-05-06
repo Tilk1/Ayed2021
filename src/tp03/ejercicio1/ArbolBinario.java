@@ -348,9 +348,11 @@ public class ArbolBinario<T> {
 			} else {
 				// No es vacio
 				// no es hoja
-				minimo = Math.min(minimo, buscar(arbol.getHijoIzquierdo()));
+				
+				minimo = Math.min(buscar(arbol.getHijoIzquierdo()), buscar(arbol.getHijoDerecho()));//esto seria preorden
+				//minimo = Math.min(minimo, buscar(arbol.getHijoIzquierdo()));  //inorden
 				minimo = Math.min(minimo, (int) arbol.getDato());
-				minimo = Math.min(minimo, buscar(arbol.getHijoDerecho()));
+				//minimo = Math.min(minimo, buscar(arbol.getHijoDerecho()));    //inorden
 			}
 		}
 	return minimo;
