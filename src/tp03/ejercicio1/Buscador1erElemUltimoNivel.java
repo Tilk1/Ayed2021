@@ -4,7 +4,7 @@ import tp02.ejercicio2.ListaEnlazadaGenerica;
 /**
  * Ejercicio parcial
  * @author SAN
- * @ENUNCIADO: https://i.imgur.com/JYiHLTr.png   (Ctrl click abrirlo)
+ * @ENUNCIADO: @link https://i.imgur.com/JYiHLTr.png
  */
 public class Buscador1erElemUltimoNivel {
 	private ArbolBinario<Integer> arbol;
