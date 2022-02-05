@@ -1,6 +1,4 @@
-# Ayed2021
-
-¿Que puedo encontrar en este repositorio?
+# ¿Que puedo encontrar en este repositorio?
 
 Numerosos ejercicios de Arboles en donde se aplican las tecnicas BFS (Breadth-first search) y DFS (Depht-first search)
 
